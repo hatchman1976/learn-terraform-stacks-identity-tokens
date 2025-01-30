@@ -8,10 +8,12 @@ variable "aws_region" {
 
 variable "tfc_organization" {
   type = string
+  default = "terraform_hatchman76"
 }
 
 variable "tfc_project" {
   type = string
+  default = "learn-terraform-stacks-identity-tokens"
 }
 
 variable "tfc_hostname" {
